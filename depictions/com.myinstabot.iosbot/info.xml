@@ -1,0 +1,15 @@
+<package>
+	<id>com.myinstabot.iosbot</id>
+	<name>MyInstaBot</name>
+	<version>1.0.0</version>
+	<compatibility></compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>A MyInstaBot Bot</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>First Release</change>
+	</changelog>
+	<links></links>
+</package>
