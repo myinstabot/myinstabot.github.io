@@ -1,0 +1,106 @@
+Package: com.mib.MIBAccountVerifier
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debs/com.mib.MIBAccountVerifier_1.0_iphoneos-arm.deb
+Size: 11928
+MD5sum: 3d50419604c4f21b050d21cca2346c72
+SHA1: 721b4092f2aac97bda2b3ff9deaf8724fc59d809
+SHA256: 37006d4d433960a0d83ad062346fbb2b1c500202d527373619926680905e5419
+Section: Tweaks
+Priority: optional
+Author: MIB
+Name: MIBAccountVerifier
+
+Package: com.myinstabot.iosbot
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: MyInstaBot
+Depends: com.ryleyangus.libertylite.beta, com.udevs.bakgrunnur(>=1.5.9), firmware(>= 10.0), mobilesubstrate, com.mib.MIBAccountVerifier
+Conflicts: com.myinstabot.accountverifier, com.kimjongun.fun, com.ryleyangus.libertylite.fork
+Filename: ./debs/com.myinstabot.iosbot_1.2.0_iphoneos-arm.deb
+Size: 46173016
+MD5sum: 9247427258c527f3926d26547f99beed
+SHA1: 0babfd0d7d4e7d600e196597f5a5cdfa6a2c2265
+SHA256: b8a4e43c06afc7efa495debe22f61f01dac58471cbd783e05e8470d953f1c64b
+Section: Applications
+Description: MyInstaBot
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+Author: MyInstaBot
+Depiction: https://myinstabot.github.io/depictions/?p=com.myinstabot.iosbot
+Dev: MyInstaBot
+Name: MyInstaBot
+
+Package: com.opa334.ccsupport
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: opa334
+Installed-Size: 308
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.3_iphoneos-arm.deb
+Size: 47486
+MD5sum: c17f57d9bc168d24fad0e1c3b4a21d0c
+SHA1: ee74af5596548717303569e90c26f63b2ccc746f
+SHA256: b62a89d1efaabb9388025a716ff103fe22f95bf7480046bbc3e4f2462941ea75
+Section: Tweaks
+Description: Support tweak for CC modules!
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Name: CCSupport
+
+Package: com.ryleyangus.libertylite.beta
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: Ryley Angus
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: ./debs/com.ryleyangus.libertylite.beta_0.2.12_iphoneos-arm.deb
+Size: 42210
+MD5sum: 37298170685afadc9b2bf7f636dafba7
+SHA1: f2a120261d0d0ee6ace2deb7508e567cbc76d362
+SHA256: 990c49c7af5807e031d7fa4632e56eb6f5222a1c29002187f88d4de33da684a7
+Section: Tweaks
+Description: A general purpose jailbreak detection bypass patch. Configure the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not currently supported. Support for both arm64e and armv7 has been enabled in this beta version.
+Author: Ryley Angus
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite (Beta)
+
+Package: com.udevs.bakgrunnur
+Version: 1.5.9
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 1864
+Depends: mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap (>= 1.0.3), com.opa334.ccsupport, firmware(>=13.0), applist
+Filename: ./debs/com.udevs.bakgrunnur_1.5.9_iphoneos-arm.deb
+Size: 287774
+MD5sum: e1cb26cc52bfd0f9acc2468da9ce3116
+SHA1: 7d2f9c4e6e3a434129d45b00e1cc9f1cfa009d2b
+SHA256: 87c7ba0f7f330056f24892094eba2e490079aa26572281042f10ee133025fb7e
+Section: Tweaks
+Description: Truly backgrounding your apps
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.bakgrunnur
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.bakgrunnur/icon/icon.png
+Name: Bakgrunnur
+
+Package: kr.xsf1re.flyjbx
+Version: 1.1.14
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Installed-Size: 1576
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb
+Filename: ./debs/kr.xsf1re.flyjbx_1.1.14.deb
+Size: 641928
+MD5sum: 395bf7d486cb15cb4e564672bb7c5269
+SHA1: 792ff32d89f738af9f156e30831a9b635e5f2f91
+SHA256: f3ab5cb1bc27d21171b83f204a453ae6341e44700eb08a9b2636b4d2f9920a32
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Name: FlyJB X
+
